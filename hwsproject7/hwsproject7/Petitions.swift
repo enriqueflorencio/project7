@@ -1,5 +1,5 @@
 //
-//  Petition.swift
+//  Petitions.swift
 //  hwsproject7
 //
 //  Created by Daniel Florencio on 3/27/19.
@@ -8,8 +8,6 @@
 
 import Foundation
 
-struct Petition: Codable {
-    var title: String
-    var body: String
-    var signatureCount: Int
+struct Petitions : Codable {
+    var results: [Petition]
 }

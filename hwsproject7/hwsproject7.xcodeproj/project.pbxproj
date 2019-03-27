@@ -13,6 +13,7 @@
 		756FACF9224C0F060014E4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756FACF8224C0F060014E4FE /* Assets.xcassets */; };
 		756FACFC224C0F060014E4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756FACFA224C0F060014E4FE /* LaunchScreen.storyboard */; };
 		756FAD04224C15240014E4FE /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756FAD03224C15240014E4FE /* Petition.swift */; };
+		75EFA354224C17FB0017898C /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EFA353224C17FB0017898C /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		756FACFB224C0F060014E4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756FACFD224C0F060014E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756FAD03224C15240014E4FE /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		75EFA353224C17FB0017898C /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				756FACF1224C0F030014E4FE /* AppDelegate.swift */,
 				756FACF3224C0F030014E4FE /* ViewController.swift */,
 				756FAD03224C15240014E4FE /* Petition.swift */,
+				75EFA353224C17FB0017898C /* Petitions.swift */,
 				756FACF5224C0F030014E4FE /* Main.storyboard */,
 				756FACF8224C0F060014E4FE /* Assets.xcassets */,
 				756FACFA224C0F060014E4FE /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				756FACF4224C0F030014E4FE /* ViewController.swift in Sources */,
+				75EFA354224C17FB0017898C /* Petitions.swift in Sources */,
 				756FACF2224C0F030014E4FE /* AppDelegate.swift in Sources */,
 				756FAD04224C15240014E4FE /* Petition.swift in Sources */,
 			);
