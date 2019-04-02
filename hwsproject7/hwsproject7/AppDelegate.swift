@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  hwsproject7
 //
-//  Created by Daniel Florencio on 3/27/19.
+//  Created by Enrique Florencio on 3/27/19.
 //  Copyright © 2019 Enrique Florencio. All rights reserved.
 //
 
@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //We need to get inside the tabBarController 
+        if let tabBarController = window?.rootViewController as? UITabBarController {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "NavController")
+            //Create the top rated tab with a tag of 1
+            vc.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 1)
+            //Then we add the tab to the tab bar
+            tabBarController.viewControllers?.append(vc)
+        }
         return true
     }
 
